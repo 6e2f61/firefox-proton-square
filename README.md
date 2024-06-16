@@ -1,9 +1,12 @@
 # Firefox Proton Square
 *Recreates the feel of Quantum with its squared tabs and menus. No rounded corners to be seen.*
 
+This is fork of fork from [GitHub leadweedy](https://github.com/leadweedy/Firefox-Proton-Square) repository with enabled visibility of container color bar at the bottom of tab.
+
+![Sample Screenshot of change](./images/container_color_on_tab.png "Sample Screenshot")
 
 
-![Sample Screenshot of Theme](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/ff_protonbutquantum.png "Sample Screenshot")
+![Sample Screenshot of Theme](./images/ff_protonbutquantum.png "Sample Screenshot")
 
   If you hate rounded corners like me, this is for you. Only square corners.
   
@@ -40,7 +43,7 @@
 
 To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
 
-[Thunderbird is also supported.](../../wiki/Thunderbird-Install)
+[Thunderbird is also supported.](https://github.com/leadweedy/Firefox-Proton-Square/wiki/Thunderbird-Install)
  
  
 ## Custom Preferences
@@ -55,17 +58,17 @@ To update, repeat steps 2-4. `userVariables.css` does NOT need to be replaced.
   - Set height of the tabs
   - Scale the size of sync avatar
   - Custom padding/margin for menu items
-  - <img src="https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/padding%20reference.png" width="425">
+  - <img src="./images/padding%20reference.png" width="425">
   
 **`about:config`**
   - Use default window controls in title bar (linux only) by creating the pref `browser.windowcontrolbuttons.overwrite` = `true`
-  - default buttons with light/dark theme (![mozilla buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/breeze_buttons.png))
+  - default buttons with light/dark theme (![mozilla buttons](./images/mozilla_buttons.png)) vs. OS themed buttons (![breeze buttons](./images/breeze_buttons.png))
   - Re-round sync profile picture by creating the pref `browser.syncavatar.round` = `true`
   - Color the separator in the app menu by creating the pref `browser.appmenugradient.overwrite` = `true`
-  - ![colored separator in appmenu](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/appmenu_gradient.png)
+  - ![colored separator in appmenu](./images/appmenu_gradient.png)
   - Add more padding on left side of tab bar by creating the pref `browser.lefttabspacer.enable` = `true` 
   - Disable Unified Extensions button (on the nav bar) by created the pref `browser.unifiedextensions.hide` = `true`
-  - Hide Extensions Dot (![example extensions dot](https://raw.githubusercontent.com/leadweedy/Firefox-Proton-Square/main/images/extensions_dot.png)) by creating the pref `browser.extensionsdot.hide` = `true`
+  - Hide Extensions Dot (![example extensions dot](./images/extensions_dot.png)) by creating the pref `browser.extensionsdot.hide` = `true`
 
 
 
@@ -93,5 +96,5 @@ border-radius: 0px;
 
 ## Appendix
 
-[More examples and screenshots.](../../wiki/Appendix)
+[More examples and screenshots.](https://github.com/leadweedy/Firefox-Proton-Square/wiki/Appendix)
 

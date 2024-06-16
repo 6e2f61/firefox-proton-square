@@ -135,6 +135,14 @@ otherwise will change height when tabs overflow [FIXED] */
 /* .tabbrowser-tab {height: var(--tab-bar-height, 35px) !important;} */
 
 
+/* Container color bar visibility */
+.tabbrowser-tab[usercontextid] > .tab-stack > .tab-background > .tab-context-line {
+/* Move container color bar to bottom of tab, the very bottom would be 2px Leave a gap and make the bar really thin */
+  margin: 0px 8px !important;
+  margin-top: 32px !important;
+  height: 1px !important;
+  }
+  
 
 /* Reduce left spacer on tab bar */
 @supports (not (-moz-osx-font-smoothing: auto)){
