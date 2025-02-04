@@ -1,3 +1,8 @@
+# Disclamer
+
+As support for container color bar at the bottom of tab has been added upstream, this is not maintaned anymore. Please use original repository :)
+
+
 # Firefox Proton Square
 *Recreates the feel of Quantum with its squared tabs and menus. No rounded corners to be seen.*
 
